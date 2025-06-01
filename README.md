@@ -86,7 +86,7 @@ ________________________________________
 -	🧠 Power Pivot & DAX
 -	🧬 Data Modeling  
 
-[My final project](Project_2-Analysis)  
+[My final project](https://github.com/NsikanV/Data_Analytics-Excel_Project/blob/main/Project_2%20Analysis.xlsx)  
 ________________________________________
 ### ⚙️ ETL Workflow in Power Query  
 ![2_Project_Analysis_Screenshot3](https://github.com/user-attachments/assets/73fe6184-7654-4d08-9d9c-9c269840a17b)  
