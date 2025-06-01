@@ -20,28 +20,28 @@ ________________________________________
 [My final dashboard](https://github.com/NsikanV/Data_Analytics-Excel_Project/blob/main/Project_1%20Dashboard.xlsx)  
 
 ## Dataset  
-Sourced from a real-world 2023 dataset curated by Luke Barousse 🎓, who made it assessable for the purpose of this course. The link to this dataset is available on his YouTube video for Excel course. This dataset includes:
+Sourced from a real-world 2023 dataset curated by **Luke Barousse** 🎓, who made it assessable for the purpose of this course. The link to this dataset is available on his YouTube video for Excel course. This dataset includes:
 -	Job titles
 -	Locations 🌍
 -	Average salaries 💰
 -	Job types
 -	Skills and so on.  
-[Watch Course on YouTube](https://www.youtube.com/watch?v=pCJ15nGFgVg&t=38046s&pp=0gcJCbAJAYcqIYzv)  
+[view Course on YouTube](https://www.youtube.com/watch?v=pCJ15nGFgVg&t=38046s&pp=0gcJCbAJAYcqIYzv)  
 ________________________________________
 ## 📉 Dashboard Breakdown  
-### Charts   
+### Data Visualizations     
 ![bar chart](https://github.com/user-attachments/assets/30cdd386-e1d4-4ec1-b2eb-0263e51e846e)  
-📊 A horizontal bar chart was used to visualize median salaries by role. Roles such as Data Analysts earned less compared to Senior Data Engineers and Data Scientists – an important salary stratification based on specialization and seniority.  
+📊 A horizontal bar chart was used to visualize median salaries by role.   
+**📈 Analysis:** Roles such as Data Analysts earned less compared to Senior Data Engineers and Data Scientists – an important salary stratification based on specialization and seniority.  
 
 ![Map Chart](https://github.com/user-attachments/assets/e61dcdd8-8b0c-41d4-8522-e52e3b458656)  
 🗺️ This map chart highlights the geographical spread of job salaries, identifying high-paying countries and salary discrepancies across regions.  
-### Formulas and Functions  
-![Median Salary](https://github.com/user-attachments/assets/5ba1eb50-7888-40d0-9a7d-17ebd660a1d0)  
 
-Median salary calculations used the `MEDIAN()` function with nested `IF()` statements and array formulas to dynamically filter and compute based on:
-- Job title
-- Country
--	Schedule type  
+### Formulas and Functions  
+- Median salary calculations used the `MEDIAN()` function with nested `IF()` statements and array formulas to dynamically filter and compute based on:  
+  - Job title
+  - Country
+  -	Schedule type  
 ```
 =MEDIAN(
 IF(
@@ -52,16 +52,19 @@ IF(
 jobs[salary_year_avg]
 )
 )
-```
+```  
+This formula returns the median salary based on job title, country and type.   
 
-📊 Job counts by schedule type (Full-time, Part-time, etc.) were calculated using FILTER() and UNIQUE() functions to:
-![job count](https://github.com/user-attachments/assets/6164a59e-601c-4ef6-8c3e-123d5616c8b2)  
+ ![Median Salary](https://github.com/user-attachments/assets/5ba1eb50-7888-40d0-9a7d-17ebd660a1d0)  
 
--	Remove duplicates
--	Omit zero counts
--	Ensure dynamic aggregation
+- 📊 Job counts by schedule type (Full-time, Part-time, etc.) were calculated using FILTER() and UNIQUE() functions to:
+  -	Remove duplicates
+  -	Omit zero counts
+  -	Ensure dynamic aggregation  
+![job count](https://github.com/user-attachments/assets/6164a59e-601c-4ef6-8c3e-123d5616c8b2)    
 
 ### Data Validation  
+
 ![Dropdown list](https://github.com/user-attachments/assets/eebcfd62-1bf9-46f4-9684-bbec4f0bfb27)  
 
 📌 Implemented dropdown lists to:
