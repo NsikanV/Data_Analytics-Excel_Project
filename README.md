@@ -17,7 +17,7 @@ ________________________________________
 ________________________________________
 
 ### Dashboard File
-[My final dashboard](Project_1-Dashboard)  
+[My final dashboard](https://github.com/NsikanV/Data_Analytics-Excel_Project/blob/main/Project_1%20Dashboard.xlsx)  
 
 ## Dataset  
 Sourced from a real-world 2023 dataset curated by Luke Barousse 🎓, who made it assessable for the purpose of this course. The link to this dataset is available on his YouTube video for Excel course. This dataset includes:
